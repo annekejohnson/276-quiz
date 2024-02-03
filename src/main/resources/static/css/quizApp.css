@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: mediumpurple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    background-color: #d5aaff;
+    border: solid black;
+    border-radius: 5px;
+}
+
+button{
+    margin: 10px 5px 10px;
+    cursor: pointer;
+}
+
+div{
+    line-height: 1.5;
+    background-color: #d5aaff;
+    border: solid black;
+    border-radius: 5px;
+}

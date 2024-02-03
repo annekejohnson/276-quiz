@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript/quizLogic.js" defer></script>
+    <link rel="stylesheet" href="/css/quizApp.css">
+    <title>Interactive Quiz</title>
+</head>
+<body>
+    <h1>HOW WELL DO YOU KNOW YOUR POWERS OF 2?</h1>
+    <form id="myQuiz">
+        <p id="question"></p>
+        <input type="radio" id="A" name="ans" value=0>
+        <label id="optA" for="A"></label></br> 
+        <input type="radio" id="B" name="ans" value=1>
+        <label id="optB" for="B"></label></br> 
+        <input type="radio" id="C" name="ans" value=2>
+        <label id="optC" for="C"></label></br> 
+        <input type="radio" id="D" name="ans" value=3>
+        <label id="optD" for="D"></label></br> 
+        <button id="prev" type="button" value="prev">PREV</button>
+        <button id="next" type="button" value="next">NEXT</button>
+        <button id="submit" type="button" value="submit">DONE</button>
+    </form>
+    <div id = "results">
+    <h1>RESULTS</h1>
+    <p id="show"></p>
+    </div>
+    
+</body>
+</html>
